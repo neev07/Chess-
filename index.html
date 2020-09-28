@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chess Game</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      var firebaseConfig = {
+    apiKey: "AIzaSyCypG6GAgpaTf5RyjT8QqKb6UsB4lM2DHk",
+    authDomain: "chess-game-7536c.firebaseapp.com",
+    databaseURL: "https://chess-game-7536c.firebaseio.com",
+    projectId: "chess-game-7536c",
+    storageBucket: "chess-game-7536c.appspot.com",
+    messagingSenderId: "435928104654",
+    appId: "1:435928104654:web:9cc9f016be86c20e109a9f"
+  };
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="./p5.play.js"></script>
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
